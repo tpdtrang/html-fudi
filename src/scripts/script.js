@@ -1,3 +1,4 @@
+// header
 $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(windown).scrollTop();
@@ -13,3 +14,4 @@ $(document).ready(function () {
         }
     })
 });
+
