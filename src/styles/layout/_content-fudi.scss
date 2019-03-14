@@ -19,7 +19,7 @@
            
           .heading-3 {
             font-family: "Lato";
-            font-size: 18px;
+            @include rem("font-size", 18);
             text-transform: uppercase;
             color: $cl-bl-style;
             font-weight: bold;
@@ -37,7 +37,7 @@
         .fudi-text{
             .fudi-text{
                 font-family: 'Lato';
-                font-size: 16px;
+                @include rem("font-size", 16);
                 color: $cl-bl-style;
                 margin-bottom: 20px;
             }

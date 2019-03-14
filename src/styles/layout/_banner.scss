@@ -11,7 +11,7 @@
         font-style: italic;
         font-family: "Times New Roman", Times, serif;
         font-weight: 600;
-        font-size: 24px;
+        @include rem("font-size", 24);
       }
       .title {
         margin-bottom: 10px;
@@ -19,7 +19,7 @@
           text-transform: uppercase;
           color: #fff;
           font-weight: 600;
-          font-size: 70px;
+          @include rem("font-size", 70);
           letter-spacing: 0.3rem;
         }
       }
@@ -30,7 +30,7 @@
         .pp-text {
           color: $cl-style;
           text-transform: uppercase;
-          font-size: 10px;
+          @include rem("font-size", 10);
           .link-text{
             color: $cl-style;
             text-decoration: underline;

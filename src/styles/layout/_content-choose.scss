@@ -22,7 +22,7 @@
         margin-bottom: 20px;
         .heading-3 {
           font-family: "Lato";
-          font-size: 18px;
+          @include rem("font-size", 18);
           text-transform: uppercase;
           font-weight: bold;
           color: $cl-bl-style;
@@ -40,7 +40,7 @@
       .p-text {
         margin: 0 20px;
         .text-text {
-          font-size: 16px;
+          @include rem("font-size", 16);
           font-family: "Lato";
         }
       }

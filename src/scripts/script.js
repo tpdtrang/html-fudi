@@ -1,7 +1,7 @@
 // header
 $(document).ready(function () {
     $(window).scroll(function () {
-        var scroll = $(windown).scrollTop();
+        var scroll = $(window).scrollTop();
         var opacity = 0;
         if (scroll < 100) {
             opacity = scroll / 100;
