@@ -11,10 +11,10 @@
   src: url("../fonts/Lato-Bol.ttf");
 }
 @font-face {
-    font-family: "Lato";
-    src: url("../fonts/Lato-Reg.ttf");
-  }
-  
+  font-family: "Lato";
+  src: url("../fonts/Lato-Reg.ttf");
+}
+
 // ----------------------------------------------------------------------
 // Base
 // ----------------------------------------------------------------------
@@ -38,7 +38,9 @@
 @import "layout/slider-person-them";
 @import "layout/slick";
 @import "layout/cuisines";
+@import "layout/counter";
 @import "layout/footer";
+@import "layout/animate";
 
 // ----------------------------------------------------------------------
 // Custom
@@ -54,3 +56,5 @@
 // Responsive
 // ----------------------------------------------------------------------
 @import "responsive/responsive";
+// waves
+@import "pages/waves";
