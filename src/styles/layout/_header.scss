@@ -1,0 +1,23 @@
+.header-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $bc-style;
+    z-index: 99;
+    .p-page-header{
+        .p-menu{
+            text-align: right;
+            padding-top: 30px;
+            .item-menu{
+                display: inline;
+                padding-left: 20px;
+                .link-menu{
+                    text-transform: uppercase;
+                    color: $cl-style;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
