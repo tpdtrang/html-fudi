@@ -1,0 +1,39 @@
+.content-fudiapp-container {
+  padding-top: 50px;
+  background-color: f7f7f7;
+
+  .p-page-fudiapp {
+    .p-image-backg {
+      .img-image-backg {
+        position: absolute;
+        top: 20%;
+        width: 76%;
+        height: 100%;
+        left: 15%;
+      }
+    }
+    .p-text-fudi {
+      margin-left: 50px;
+      .fudi-title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+        .heading-3 {
+          font-family: "Lato";
+          @include rem("font-size", 18);
+          text-transform: uppercase;
+          color: $cl-bl-style;
+          font-weight: bold;
+        }
+      }
+      .fudi-text {
+        .fudi-text {
+          font-family: "Lato";
+          @include rem("font-size", 16);
+          color: $cl-bl-style;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
