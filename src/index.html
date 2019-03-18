@@ -25,16 +25,30 @@
 <!-- endbuild -->
 <!-- build:css(.tmp) style/style.min.css -->
 <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <!-- endbuild -->
 </head>
 <body>
   <div class="wrapper">
     <!-- include header.html -->
-    <header class="header-container">
+    <header class="header-container" id="p-page-header">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Header Container</p>
+    <div class="p-page-header">
+      <div class="row">
+        <div class="col-lg-4 ">
+          <div class="p-logo">
+            <a href="@"><img src="../../images/logo.png" alt="" width="100px"></a>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="p-menu">
+            <ul>
+              <li class="item-menu"><a href="@" class="link-menu">login in</a></li>
+              <li class="item-menu"><a href="@" class="link-menu">sign up</a></li>
+              <li class="item-menu"><a href="@" class="link-menu"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -42,31 +56,136 @@
 
     <!-- include banner.html -->
     <section class="banner-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p class="title-block">Banner</p>
+  <div class="p-page-banner">
+    <img src="../../images/background-banner-top.png" alt="" width="100%">
+    <div class="p-banner-text text-center">
+      <h5 class="heading-5">Find your Favorite</h5>
+      <div class="title">
+        <h2 class="heading-2">recipes</h2>
+      </div>
+      <div class="btn-start">
+        <button>get started</button>
+      </div>
+      <div class="text">
+        <p class="pp-text">or send us your own recipes and <a href="@" class="link-text">get rewarded!</a></p>
       </div>
     </div>
   </div>
 </section>
 
-    <main class="main-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h4 class="title-block">HTML Boilerplate</h4>
-          </div>
-        </div>
-      </div>
-    </main>
 
+
+    <!-- include content-choose -->
+    <section class="content-choose-container">
+    <div class="container">
+        <div class="p-page-choose">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="choose-social text-center">
+                        <div class="p-icon">
+                            <img class="icon-image" src="../../images/icon-eat.png" alt="">
+                        </div>
+                        <div class="p-title">
+                            <h3 class="heading-3">get inspired</h3>
+                        </div>
+                        <div class="p-text">
+                            <p class="text-text">
+                                Lorem ipsum sit admet, consetetur adipisc Pellentesque vel enim a elit elementuma. Aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="choose-social text-center">
+                        <div class="p-icon">
+                            <img class="icon-image" src="../../images/icon-money.png" alt="" >
+                        </div>
+                        <div class="p-title">
+                            <h3 class="heading-3">get rewarded</h3>
+                        </div>
+                        <div class="p-text">
+                            <p class="text-text">
+                                Lorem ipsum sit admet, consetetur adipisc Pellentesque vel enim a elit elementuma. Aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="choose-social text-center">
+                        <div class="p-icon">
+                            <img class="icon-image" src="../../images/icon-chef.png" alt="">
+                        </div>
+                        <div class="p-title">
+                            <h3 class="heading-3">get social</h3>
+                        </div>
+                        <div class="p-text">
+                            <p class="text-text">
+                                Lorem ipsum sit admet, consetetur adipisc Pellentesque vel enim a elit elementuma. Aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- include content-choose -->
+    <section class="content-fudiapp-container">
+    <div class="container">
+        <div class="p-page-fudiapp">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="p-image">
+                        <img class="img-image" src="../../images/iphone5.png" alt="" width="100%">
+                        <div class="p-image-backg">
+                            <img class="img-image-backg" src="../../images/Nav bar - Green.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-text-fudi">
+                        <div class="fudi-title">
+                            <h3 class="heading-3">introducing the fudi app</h3>
+                        </div>
+                        <div class="fudi-text">
+                            <p class="fudi-text text-1">Morbi eget posuere dolor. Pellentesque cursur aliquet. Aeneanet felis sit amet diam mollis
+                                ullamcorper. Nullam consequat sem a ante vest ibulum tristique. Suspendisse tristique lacus
+                                ac mattis porta.
+                            </p>
+                            <p class="fudi-text text-2"> Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In libero dui, eleifend
+                                eu nisi id, egestas fringilla odio. In varius quam a mas sa hendrerit ullamcorper a eu justo.
+                                Suspendisse porta mattis convallis. Aenean tempus ligula ac odio rhoncus, quis aliquam dolor
+                                accumsan. </p>
+                            <p class="fudi-text text-3">
+                                Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam malesuada. Duis vehicula a nibh id hendrerit. Donec
+                                sit amet ultrices ante, a mattis massa.
+                            </p>
+                        </div>
+                        <div class="fudi-app">
+                            <img src="../../images/app-store.png" alt="">
+                            <img src="../../images/ch-play.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- include footer.html -->
     <footer class="footer-container">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Footer Container</p>
+    <div class="p-page-footer">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="p-footer-left">
+            <h6 class="heading-6">©2014Fudi.All Righ2ts Reserved.</h6>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-footer-right">
+            <h6 class="heading-6">design by: <span>www.bekades.com</span></h6>
+          </div>
+        </div>
       </div>
     </div>
   </div>

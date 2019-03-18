@@ -1,0 +1,43 @@
+.banner-container {
+  position: relative;
+  .p-page-banner {
+    .p-banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+      .heading-5 {
+        color: $cl-h6-style;
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 24px;
+      }
+      .title {
+        margin-bottom: 10px;
+        .heading-2 {
+          text-transform: uppercase;
+          color: #fff;
+          font-weight: 600;
+          font-size: 70px;
+          letter-spacing: 0.3rem;
+        }
+      }
+      .btn-start {
+        margin-bottom: 20px;
+      }
+      .text {
+        .pp-text {
+          color: $cl-style;
+          text-transform: uppercase;
+          font-size: 10px;
+          .link-text{
+            color: $cl-style;
+            text-decoration: underline;
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+    }
+  }
+}
